@@ -1,0 +1,57 @@
+{
+  "name": "@5h0ov/paseo-quick-chat",
+  "version": "0.1.0",
+  "description": "Chat with an agent without picking a project, and connect the chat to a project later.",
+  "keywords": [
+    "paseo",
+    "paseo-plugin",
+    "chat",
+    "scratchpad",
+    "agents"
+  ],
+  "homepage": "https://github.com/5h0ov/paseo-quick-chat#readme",
+  "bugs": {
+    "url": "https://github.com/5h0ov/paseo-quick-chat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5h0ov/paseo-quick-chat.git"
+  },
+  "license": "MIT",
+  "author": "5h0ov",
+  "files": [
+    "paseo-plugin.json",
+    "index.client.tsx",
+    "index.server.ts",
+    "client/",
+    "server/",
+    "shared/",
+    "!**/*.test.ts",
+    "OVERVIEW.md",
+    "OVERVIEW.*.md",
+    "images/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.server.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@getpaseo/client": "^0.14.0",
+    "@getpaseo/plugin": "^0.14.0",
+    "@getpaseo/protocol": "^0.14.0",
+    "@types/node": "^22.20.4",
+    "@types/react": "~19.2.0",
+    "esbuild": "^0.28.2",
+    "react": "19.2.3",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7",
+    "zod": "^4.4.3"
+  },
+  "packageManager": "bun@1.3.10",
+  "publishConfig": {
+    "access": "public"
+  }
+}

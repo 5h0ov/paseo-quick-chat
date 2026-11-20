@@ -10,7 +10,7 @@ Agents started there get a short system note saying there's no project, so they 
 
 ## Setup
 
-Requires Paseo 0.13 or later and at least one agent provider (Claude Code, Codex, OpenCode or another) on the host. Tested on Windows.
+Requires Paseo 0.15 or later and at least one agent provider (Claude Code, Codex, OpenCode or another) on the host. Tested on Windows.
 
 Preferences:
 

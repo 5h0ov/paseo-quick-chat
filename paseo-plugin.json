@@ -3,7 +3,7 @@
   "name": "Quick Chat",
   "description": "Chat with an agent without picking a project, and connect the chat to a project later.",
   "requirements": {
-    "paseo": ">=0.13.0"
+    "paseo": ">=0.15.0"
   },
   "media": [
     "images/1-chat.png",

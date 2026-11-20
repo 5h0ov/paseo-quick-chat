@@ -18,7 +18,7 @@ export default function contribute(server: PluginServerContext) {
 
   // Chats start in Paseo's own new-agent tab, so the "no project" note is added here, whatever
   // provider or model was picked.
-  server.before("agent.create", ({ request }) => {
+  server.addHook("agent.create.before", async ({ request }) => {
     if (!current.noProjectNote) return undefined;
     const config = chats.withSystemPrompt(request.config);
     return config ? { ...request, config } : undefined;

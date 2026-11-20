@@ -1,6 +1,6 @@
 {
   "name": "@5h0ov/paseo-quick-chat",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Chat with an agent without picking a project, and connect the chat to a project later.",
   "keywords": [
     "paseo",
@@ -38,9 +38,9 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@getpaseo/client": "^0.14.0",
-    "@getpaseo/plugin": "^0.14.0",
-    "@getpaseo/protocol": "^0.14.0",
+    "@getpaseo/client": "^0.16.2",
+    "@getpaseo/plugin": "^0.16.2",
+    "@getpaseo/protocol": "^0.16.2",
     "@types/node": "^22.20.4",
     "@types/react": "~19.2.0",
     "esbuild": "^0.28.2",

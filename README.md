@@ -11,7 +11,7 @@ Talk to an agent in [Paseo](https://paseo.sh) without picking a project first, a
 
 Requirements:
 
-- Paseo 0.13 or later, with plugins enabled (**Settings → Plugins → Enable plugins**).
+- Paseo 0.15 or later, with plugins enabled (**Settings → Plugins → Enable plugins**).
 - At least one agent provider (Claude Code, Codex, OpenCode, …) installed where the daemon runs.
 
 In the app, open **Settings → Plugins**, paste `npm:@5h0ov/paseo-quick-chat` as the plugin source, and install. Or, on the daemon host:
@@ -30,7 +30,7 @@ Then open **Quick chats** in the sidebar.
 2. Start a chat in Paseo's new-chat tab as usual.
 3. When a chat turns into work on a codebase, press **Connect to project** in its message box and pick a project, or search for a folder (it's added as a project). Arrow keys and Enter work too. A new agent starts there with the conversation so far, and you're taken to it.
 
-**Open Preferences** (Settings → Plugins → quick-chat → ⋯):
+**Open Preferences** (Settings → Plugins → quick-chat → the ⚙ button; ⋯ before Paseo 0.16):
 
 - **Archive chats once connected** (on by default).
 - **Tell chats there's no project**, so they answer directly instead of looking for code (on by default).
@@ -50,7 +50,7 @@ An agent can't change folders, so connecting a chat starts a new agent in the pr
 
 - The new agent in the project gets the chat as text, not the original session: tool output and reasoning aren't carried over.
 - Files a chat wrote are in the scratch folder, not in the project. The hand-off message says so.
-- Tested on Windows with Paseo 0.13.
+- Tested on Windows with Paseo 0.16.
 
 ## Development
 
